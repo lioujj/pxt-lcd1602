@@ -126,7 +126,7 @@ namespace lcd1602 {
     }
 
     //% blockId="LCD_putString" block="LCD show string %s|on x:%x|y:%y"
-    //% weight=6 blockExternalInputs=true x.min=0 x.max=15 y.min=0 y.max=1
+    //% weight=6 x.min=0 x.max=15 y.min=0 y.max=1
     export function putString(s: string, x: number, y: number): void {
         if (s.length > 0) {
             let breakPoint = -1
@@ -142,7 +142,7 @@ namespace lcd1602 {
         }
     }
     //% blockId="LCD_putNumber" block="LCD show number %n|on x:%x|y:%y"
-    //% weight=5 blockExternalInputs=true x.min=0 x.max=15 y.min=0 y.max=1
+    //% weight=5 x.min=0 x.max=15 y.min=0 y.max=1
     export function putNumber(n: number, x: number, y: number): void {
         putString(n.toString(),x,y)
     }
