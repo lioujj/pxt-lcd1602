@@ -1,6 +1,6 @@
 # LCD1602
 
-這是專為micro:bit提供的LCD1602積木
+這是專為micro:bit提供的LCD1602、LCD2004積木
 
 ## License
 

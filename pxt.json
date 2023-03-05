@@ -1,7 +1,7 @@
 {
     "name": "lcd1602",
-    "version": "0.0.2",
-    "description": "這是專為micro:bit提供的LCD1602積木",
+    "version": "0.0.3",
+    "description": "這是專為micro:bit提供的LCD1602、2004積木",
     "license": "MIT",
     "dependencies": {
         "core": "*"
